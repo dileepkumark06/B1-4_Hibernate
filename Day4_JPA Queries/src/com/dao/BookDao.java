@@ -1,4 +1,4 @@
-package com.git.dao;
+package com.dao;
 
 public class BookDao {
 
