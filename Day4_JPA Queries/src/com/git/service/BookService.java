@@ -2,7 +2,6 @@ package com.git.service;
 
 
 import java.util.List;
-
 import com.git.entities.Book;
 
 public interface BookService

@@ -31,28 +31,24 @@ public class BookServiceImpl implements BookService
 	@Override
 	public List<Book> getAuthorBooks(String author) 
 	{
-		// TODO Auto-generated method stub
 		return dao.getAuthorBooks(author);
 	}
 
 	@Override
 	public List<Book> getBookInPriceRange(double low, double high) 
 	{
-		// TODO Auto-generated method stub
 		return dao.getBookInPriceRange(low, high);
 	}
 
 	@Override
 	public List<Book> getAllBooks() 
 	{
-		// TODO Auto-generated method stub
 		return dao.getAllBooks();
 	}
 
 	@Override
 	public Long getBookCount() 
 	{
-		// TODO Auto-generated method stub
 		return dao.getBookCount();
 	}
 }
