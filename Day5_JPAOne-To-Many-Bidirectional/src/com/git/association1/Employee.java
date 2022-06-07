@@ -1,4 +1,4 @@
-package com.git.association2;
+package com.git.association1;
 
 import java.io.Serializable;
 

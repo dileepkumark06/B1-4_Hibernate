@@ -1,4 +1,4 @@
-package com.git.association2;
+package com.git.association1;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -8,8 +8,10 @@ import javax.persistence.Table;
 public class Department 
 {
 	@Id
+	
 	private int id;
 	private String name;
+	
 	
 	public int getId() {
 		return id;
@@ -20,8 +22,7 @@ public class Department
 	public String getName() {
 		return name;
 	}
-	public void setName(String name) 
-	{
+	public void setName(String name) {
 		this.name = name;
 	}
 }
