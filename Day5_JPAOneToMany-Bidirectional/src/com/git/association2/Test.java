@@ -1,4 +1,4 @@
-package com.git.association1;
+package com.git.association2;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
