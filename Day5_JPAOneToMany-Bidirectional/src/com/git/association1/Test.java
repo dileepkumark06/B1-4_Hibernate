@@ -1,6 +1,5 @@
 package com.git.association1;
 
-
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
@@ -13,7 +12,6 @@ public class Test
 		EntityManager em=factory.createEntityManager();
 		em.getTransaction().begin();
 		
-		//create a new department
 		Department dept=new Department();
 		dept.setId(1);
 		dept.setName("Sales");

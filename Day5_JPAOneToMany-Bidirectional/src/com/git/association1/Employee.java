@@ -1,6 +1,5 @@
 package com.git.association1;
 
-
 import java.io.Serializable;
 
 import javax.persistence.CascadeType;
